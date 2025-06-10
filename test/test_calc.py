@@ -33,3 +33,7 @@ def test_multiplicar():
 def test_multiplicar1():
     calc = Calculadora()
     assert calc.multiplicar(-2,5) == -10   
+
+def test_multiplicar2():
+    calc = Calculadora()
+    assert calc.multiplicar(0,-50) == 0  
