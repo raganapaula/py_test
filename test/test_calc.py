@@ -13,3 +13,7 @@ def test_soma():
 def test_somar_negat():
     calc = Calculadora()
     assert calc.somar(-1,-1) == -2   
+
+def test_subtrair():
+    calc = Calculadora()
+    assert calc.subtrair(2,2) == 0
