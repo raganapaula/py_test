@@ -25,3 +25,7 @@ def test_subtrair1():
 def test_subtrair2():
     calc = Calculadora()
     assert calc.subtrair(-2,-3) == 1
+
+def test_multiplicar():
+    calc = Calculadora()
+    assert calc.multiplicar(2,3) == 6
