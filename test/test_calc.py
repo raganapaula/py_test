@@ -37,3 +37,7 @@ def test_multiplicar1():
 def test_multiplicar2():
     calc = Calculadora()
     assert calc.multiplicar(0,-50) == 0  
+
+def test_dividir():
+    calc = Calculadora()
+    assert calc.dividir(6,2) == 3 
