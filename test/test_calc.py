@@ -21,4 +21,7 @@ def test_subtrair():
 def test_subtrair1():
     calc = Calculadora()
     assert calc.subtrair(0,5) == -5
-    
+
+def test_subtrair2():
+    calc = Calculadora()
+    assert calc.subtrair(-2,-3) == 1
