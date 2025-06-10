@@ -17,3 +17,8 @@ def test_somar_negat():
 def test_subtrair():
     calc = Calculadora()
     assert calc.subtrair(2,2) == 0
+
+def test_subtrair1():
+    calc = Calculadora()
+    assert calc.subtrair(0,5) == -5
+    
