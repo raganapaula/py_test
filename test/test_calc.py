@@ -10,4 +10,6 @@ def test_soma():
     calc = Calculadora()
     assert calc.somar(2,2) == 4
 
-    
+def test_somar_negat():
+    calc = Calculadora()
+    assert calc.somar(-1,-1) == -2   
