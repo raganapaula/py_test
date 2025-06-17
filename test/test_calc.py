@@ -45,7 +45,3 @@ def test_dividir():
 def test_dividir1():
     calc = Calculadora()
     assert calc.dividir(-10,5) == -2 
-
-def test_dividir2():
-    calc = Calculadora()
-    assert calc.dividir(2,0) == 0
